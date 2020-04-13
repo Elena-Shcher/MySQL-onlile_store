@@ -1,0 +1,15 @@
+-- Создать базу данных example, разместить в ней таблицу users, состоящую из двух столбцов - числового id и строкового name
+
+CREATE DATABASE example;
+USE example
+
+CREATE TABLE users (
+	id INT,
+	name CHAR
+);
+
+-- Создать дамп базы данных example и развернуть ее в новую базу данных sample
+mysqldump example > sample.sql
+
+-- Создать дамп таблицы help-keyword, содержащую только первые 100 сторок
+mysqldump mysql help_keyword --where='TRUE LIMIT 100' > help_keyword_dump.sql 
