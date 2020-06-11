@@ -1,1 +1,1 @@
-# Education_My_Sql
+# MySQL_education
