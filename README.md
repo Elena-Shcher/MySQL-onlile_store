@@ -1,1 +1,1 @@
-# MySQL_education
+# MySQL online store (database)
